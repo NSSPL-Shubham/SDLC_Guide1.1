@@ -1,0 +1,3 @@
+# CODEOWNERS
+/models/* @ml-team
+/scripts/deploy.sh @devops-team
