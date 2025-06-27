@@ -1,0 +1,19 @@
+name: Security Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Bandit (Python Security Scanner)
+        run: |
+          pip install bandit
+
+      - name: Run Bandit Scan
+        run: |
+          bandit -r .
