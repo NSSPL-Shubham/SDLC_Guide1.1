@@ -1,4 +1,4 @@
 # CODEOWNERS
-*.py  NSSPL-Shubham
-models/**  NSSPL-Shubham
+*.py  @NSSPL-Shubham
+models/**  @NSSPL-Shubham
 
