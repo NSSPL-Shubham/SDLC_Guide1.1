@@ -1,3 +1,4 @@
 # CODEOWNERS
-/models/* @ml-team
-/scripts/deploy.sh @devops-team
+*.py  NSSPL-Shubham
+models/**  NSSPL-Shubham
+
